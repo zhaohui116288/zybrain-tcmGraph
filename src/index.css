@@ -1,0 +1,23 @@
+ /* src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* 手动添加 line-clamp 类 */
+.line-clamp-2 {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.line-clamp-3 {
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.gradient-bg {
+  background: linear-gradient(135deg, #8b5cf6 0);
+}

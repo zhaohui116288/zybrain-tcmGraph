@@ -1,0 +1,29 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+/* 添加一些基础样式 */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.nav-button {
+  padding: 10px 20px;
+  margin: 0 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nav-button.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.nav-button:hover {
+  background-color: #45a049;
+}
